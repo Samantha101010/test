@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '11'
-          distribution: 'adoptium'
+          distribution: 'temurin'
 
       - name: Verify Java version
         run: java -version
